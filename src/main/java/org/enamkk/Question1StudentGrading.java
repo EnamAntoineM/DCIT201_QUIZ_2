@@ -8,13 +8,13 @@ public class Question1StudentGrading {
     public char calculateLetterGrade(double score) {
         if (score >= 80) {
             return 'A';
-        } else if (80 > score && 70 <= score) {
+        } else if (score >= 70) {
             return 'B';
-        } else if (70 > score && 60 <= score) {
+        } else if (score >= 60) {
             return 'C';
-        } else if (60 > score && 50 <= score) {
+        } else if (score >= 50) {
             return 'D';
-        } else if (50 > score && 45 <= score) {
+        } else if (score >= 45) {
             return 'E';
         } else {
             return 'F';
